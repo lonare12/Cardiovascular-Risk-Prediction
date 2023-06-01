@@ -41,3 +41,22 @@ The classification goal is to predict whether the patient has a 10-year risk of 
 ## STEPS INVOLVED DOING THIS PROJECT:
 - Import data from dataset and perform initial high-level analysis: look at the number of rows, look at the missing values, look at dataset columns and their values respective to the campaign outcome.
 - Import data from dataset and perform initial high-level analysis: look at the number of rows, look at the missing values, look at dataset columns and their values respective to the target variable.
+Clean the data: remove irrelevant columns, deal with missing and incorrect values, turn categorical columns into dummy variables.
+
+- Use machine learning techniques to predict the marketing campaign outcome and to find out factors, which affect the success of the campaign.
++ Use machine learning techniques to predict the Risk of CHDs and to find out factors, which affect target variable.
+ ### LIST OF CLASSIFICATION MODELS BUILT IN THIS PROJECT:
+ | Sr.  |          MODELS             | TEST ACCURACY |
+|-----:|-----------------------------|---------------|
+|     1| LOGISTIC REGRESSION         |   **0.87**  |
+|     2| DECISION TREE CLASSIFIER    |   **0.74**  |
+|     3| RANDOM FOREST CLASSIFIER    |   **0.86**  |
+|     4| KNN CLASSIFIER              |   **0.85**  |
+
+# Conclusions:
+**In conclusion, All the features provided in the dataset are extremely important and contribute towards the risk of getting CHDs. Although, we can conclude some majorly important features like:**
+- **As age increases the risk of getting diagnosed with heart disease also increases.**
+- **Cigarette consumption is also a major factor that causes CHDs.**
+- **Patients having Diabetes and cholesterol problems show a higher risk of CHDs.**
+- **Patients having high glucose levels are more prone to CHDs.**
+ 
